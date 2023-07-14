@@ -1,10 +1,12 @@
 import React from 'react';
+import MyCash from '../myCash/MyCash';
 
 const Home = () => {
     return (
-        <div>
-            this is home
-        </div>
+        <>
+        {/* my cash area */}
+        <MyCash />
+        </>
     );
 };
 
