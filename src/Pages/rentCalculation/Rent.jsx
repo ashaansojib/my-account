@@ -1,14 +1,16 @@
 import React from 'react';
 import GetRent from './GetRent';
 import ProvideRent from './ProvideRent';
+import RentHistory from './RentHistory';
 
 const Rent = () => {
     return (
         <div className='p-4 bg-slate-100'>
             <h2 className='text-2xl font-medium italic text-center'>Renting Calculations</h2>
-            <div className='grid grid-cols-2 justify-between gap-2'>
+            <div className='grid grid-cols-3 justify-between gap-2'>
                 <GetRent />
                 <ProvideRent />
+                <RentHistory />
             </div>
             <div className='grid grid-cols-3 py-2 gap-2'>
                 <div>
