@@ -1,11 +1,12 @@
 import React from 'react';
+import PersonTable from './PersonTable';
 
 const ProvideRent = () => {
     return (
         <div>
-            <p>Provided Money</p>
-            <div>
-            <input type="text" placeholder="Ammount" className="input input-bordered w-full max-w-xs" />
+            <p className='text-right'>Provided Money</p>
+            <div className='p-4 bg-[#abc0df] rounded-md'>
+                <PersonTable />
             </div>
         </div>
     );
