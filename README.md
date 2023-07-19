@@ -3,3 +3,4 @@
 * tailwindcss & daisyui
 * react icons
 * using npm install react-hook-form
+* Using npm install moment --save
